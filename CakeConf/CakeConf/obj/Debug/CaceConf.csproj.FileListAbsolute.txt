@@ -1,0 +1,11 @@
+C:\Users\viruc\source\repos\CaceConf\CaceConf\bin\Debug\CaceConf.exe.config
+C:\Users\viruc\source\repos\CaceConf\CaceConf\bin\Debug\CaceConf.exe
+C:\Users\viruc\source\repos\CaceConf\CaceConf\bin\Debug\CaceConf.pdb
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CaceConf.csprojAssemblyReference.cache
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CaceConf.Form1.resources
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CaceConf.Properties.Resources.resources
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CaceConf.csproj.GenerateResource.cache
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CaceConf.csproj.CoreCompileInputs.cache
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CaceConf.exe
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CaceConf.pdb
+C:\Users\viruc\source\repos\CaceConf\CaceConf\obj\Debug\CakeConf.Form1.resources

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cake>
+  <Korj Type="корж">
+    <Name>бисквитный</Name>
+  </Korj>
+  <Kream Type="крем      ">
+    <Name>белковый                                          </Name>
+  </Kream>
+</Cake>
