@@ -95,7 +95,7 @@ namespace CakeConf
             Console.WriteLine(dUpakovki.Rows.Count);
             //if (radioButton1.Checked == true)
             //{
-            //    Console.WriteLine(Convert.ToDouble(dUpakovki.Rows[0][0]));
+                //Console.WriteLine(Convert.ToDouble(dUpakovki.Rows[0][0]));
                 //var salo = dUpakovki.Rows[0][0];
                 //gf = ;
                 //    //ast2 += gf;
@@ -122,7 +122,7 @@ namespace CakeConf
         {
             if (checkedListBox2.GetItemChecked(1) == true && checkedListBox2.GetItemChecked(3) == true)
             {
-                errorProvider1.SetError(button4, "Невозможно сохранить. Вишня и марципан не могут одновременно украшать торт!");
+                errorProvider1.SetError(Save, "Невозможно сохранить. Вишня и марципан не могут одновременно украшать торт!");
             }
             else
             {
@@ -150,12 +150,6 @@ namespace CakeConf
                 // добавляем атрибут и элементы в первый элемент
                 Kream.Add(KreamTypeAttr);
                 Kream.Add(KreamNameElem);
-                foreach (int iNachinka in checkedListBox1.CheckedIndices)
-                {
-                    string idNachinkaName = dNachinki.Rows[iNachinka][0].ToString();
-                    double idNachinkaVes = Convert.ToDouble(dNachinki.Rows[iNachinka][4]);
-                    double idNachinkaPrice = Convert.ToDouble(dNachinki.Rows[iNachinka][5]);
-                }
                 // создаем корневой элемент
                 XElement Cake = new XElement("Cake");
                 // добавляем в корневой элемент
@@ -213,7 +207,7 @@ namespace CakeConf
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
         }
 
         private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -265,6 +259,11 @@ namespace CakeConf
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
             Refreshing();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
